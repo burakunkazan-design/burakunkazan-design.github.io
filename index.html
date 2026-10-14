@@ -1,293 +1,154 @@
 <!-- Header / Navbar -->
-<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-sm">
+<header class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div class="flex items-center space-x-3">
-            <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-500/30">
-                <i class="fa-solid fa-bolt-lightning"></i>
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-pink-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-brand-500/20">
+                <i class="fa-solid fa-gamepad"></i>
             </div>
-            <span class="text-2xl font-black tracking-tight text-slate-900">Nova<span class="text-brand-600">Finans</span></span>
+            <span class="text-xl font-extrabold tracking-tight text-white">Piksel<span class="text-brand-500">Kutusu</span></span>
         </div>
-        <nav class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
-            <a href="#features" class="hover:text-brand-600 transition">Özellikler</a>
-            <a href="#calculator" class="hover:text-brand-600 transition">Kredi Hesapla</a>
-            <a href="#app" class="hover:text-brand-600 transition">Mobil Uygulama</a>
-            <a href="#faq" class="hover:text-brand-600 transition">S.S.S.</a>
+        <nav class="hidden md:flex items-center space-x-8 font-medium text-slate-400 text-sm">
+            <a href="#about" class="hover:text-white transition">Biz Kimiz?</a>
+            <a href="#project" class="hover:text-white transition">Kredi Prototipi</a>
+            <a href="#experiments" class="hover:text-white transition">Çılgın Deneyler</a>
+            <a href="#contact" class="hover:text-white transition">İletişim</a>
         </nav>
-        <div class="flex items-center space-x-4">
-            <a href="#calculator" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl border border-brand-200 text-brand-600 hover:bg-brand-50 font-semibold transition">
-                Giriş Yap
-            </a>
-            <a href="#apply" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700 font-semibold shadow-lg shadow-brand-600/25 transition">
-                Hemen Başvur
+        <div>
+            <a href="#project" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold shadow-lg shadow-brand-600/30 transition">
+                Prototipi İncele
             </a>
         </div>
     </div>
 </header>
 
 <!-- Hero Section -->
-<section class="relative overflow-hidden pt-16 pb-24 lg:pt-28 lg:pb-32 bg-gradient-to-b from-white via-brand-50/30 to-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
-                <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-100/70 border border-brand-200 text-brand-700 text-sm font-semibold">
-                    <span class="flex h-2 w-2 rounded-full bg-brand-600 animate-pulse"></span>
-                    <span>0.99%'den Başlayan Faiz Oranlarıyla</span>
-                </div>
-                <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-slate-900 leading-[1.1]">
-                    Dakikalar İçinde <span class="text-brand-600">Cepte Kredi</span> Deneyimi
-                </h1>
-                <p class="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0">
-                    Şubeye gitmek yok, evrakla uğraşmak yok. NovaFinans mobil uygulamasıyla anında kredi limitinizi öğrenin, paranız saniyeler içinde hesabınıza yatsın.
+<section class="relative overflow-hidden pt-20 pb-32 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-brand-600/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+        <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-brand-950 border border-brand-800 text-brand-400 text-xs font-semibold">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span>Kahve ve Kod Eşliğinde Üretiyoruz</span>
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white max-w-4xl mx-auto leading-tight">
+            Kendi Halimizde <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-pink-500">Mobil Uygulamalar</span> Geliştiriyoruz!
+        </h1>
+        <p class="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto font-normal">
+            Kurumsal falan değiliz; birkaç geliştirici arkadaşın hafta sonu projeleri ürettiği, bazen kodların patladığı ama eğlenceli bir indie stüdyosuyuz.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 pt-4">
+            <a href="#project" class="px-8 py-4 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold shadow-xl shadow-brand-600/20 transition">
+                Uygulama İçi Kredi Modülünü Gör <i class="fa-solid fa-arrow-down ml-2"></i>
+            </a>
+            <a href="#about" class="px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold transition">
+                Hikayemiz
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section / Amateur Indie Vibe -->
+<section id="about" class="py-24 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Biz Kimiz?</span>
+                <h2 class="text-3xl font-black text-white">Ofisimiz Yok, Kodlarımız Var!</h2>
+                <p class="text-slate-400 leading-relaxed">
+                    Büyük kurumsal bankalar ya da devasa yazılım şirketleri gibi 50 sayfalık sözleşmelerimiz yok. Genelde gece yarısı Discord sesli sohbetinde toplanıp "acaba şöyle bir uygulama yapsak tutar mı?" diyerek prototype çıkaran amatör ekibiz.
                 </p>
-                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-                    <a href="#calculator" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-brand-600 text-white font-bold text-center shadow-xl shadow-brand-600/30 hover:bg-brand-700 transition transform hover:-translate-y-0.5">
-                        Kredinizi Hesaplayın <i class="fa-solid fa-arrow-right ml-2"></i>
-                    </a>
-                    <a href="#app" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white border border-slate-200 text-slate-700 font-bold text-center hover:bg-slate-50 transition">
-                        Uygulamayı İndir
-                    </a>
-                </div>
-                <div class="pt-6 flex items-center justify-center lg:justify-start space-x-8 text-slate-500 text-sm font-medium border-t border-slate-200/60">
-                    <div class="flex items-center space-x-2">
-                        <i class="fa-solid fa-shield-check text-emerald-500 text-lg"></i>
-                        <span>BDDK Lisanslı Güvence</span>
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-2xl font-black text-brand-400 mb-1">12+</div>
+                        <div class="text-xs text-slate-400">Yarım Bırakılmış Proje</div>
                     </div>
-                    <div class="flex items-center space-x-2">
-                        <i class="fa-solid fa-bolt text-amber-500 text-lg"></i>
-                        <span>3 Dakikada Onay</span>
+                    <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-2xl font-black text-pink-500 mb-1">3</div>
+                        <div class="text-xs text-slate-400">Geliştirici Arkadaş</div>
                     </div>
                 </div>
             </div>
-
-            <!-- Hero Visual / Mock Application Card -->
-            <div class="lg:col-span-5 flex justify-center">
-                <div class="w-full max-w-md bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-100 relative">
-                    <div class="absolute -top-3 -right-3 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md uppercase tracking-wider">
-                        Onaylandı
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center justify-between">
-                        <span>Hızlı Başvuru Simülasyonu</span>
-                        <i class="fa-solid fa-mobile-screen-button text-brand-600"></i>
-                    </h3>
-                    <form id="quickForm" onsubmit="handleQuickSubmit(event)" class="space-y-4">
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">TC Kimlik Numarası</label>
-                            <input type="text" maxlength="11" placeholder="12345678901" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">Cep Telefonu</label>
-                            <input type="tel" placeholder="0555 555 55 55" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">Aylık Gelir (TL)</label>
-                            <input type="number" placeholder="35000" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-sm">
-                        </div>
-                        <button type="submit" class="w-full py-4 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold shadow-lg shadow-brand-600/20 transition">
-                            Limiti Sorgula
-                        </button>
-                    </form>
-                    <div id="quickSuccess" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 rounded-2xl text-emerald-800 text-center text-sm animate-fade-in">
-                        <i class="fa-solid fa-circle-check text-emerald-600 text-xl mb-1 block"></i>
-                        <strong>Tebrikler!</strong> 150.000 TL'ye kadar ön onaylı limitiniz hazır. Başvuruyu tamamlamak için uygulamamızı indirin.
-                    </div>
+            <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 relative group">
+                <div class="absolute -top-3 -right-3 bg-brand-600 text-white text-xs px-3 py-1 rounded-full font-bold">
+                    Mod Etkin ⚡
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4"><i class="fa-solid fa-code text-brand-400 mr-2"></i>Son Günlerde Ne Yapıyoruz?</h3>
+                <p class="text-slate-400 text-sm mb-6">
+                    Şu aralar mobil uygulamaların içine gömülebilecek pratik bir <strong>"Uygulama İçi Kredi Başvuru"</strong> modülü prototipi üzerinde uğraşıyoruz. Tamamen test amaçlıdır!
+                </p>
+                <div class="p-4 rounded-xl bg-slate-950 font-mono text-xs text-brand-300 border border-slate-800">
+                    > git status<br>
+                    > on branch: kredi-modulu-dene<br>
+                    > status: hata ayıklanıyor (muhtemelen çalışacak)
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Features Section -->
-<section id="features" class="py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 class="text-3xl sm:text-4xl font-black text-slate-900">Neden NovaFinans?</h2>
-            <p class="text-slate-600 text-lg">Finansal ihtiyaçlarınız için geleneksel bankacılığı unutturan yenilikçi çözümler sunuyoruz.</p>
+<!-- Main Project Showcase: In-App Credit Simulation -->
+<section id="project" class="py-24 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Prototip Test Alanı</span>
+            <h2 class="text-3xl sm:text-4xl font-black text-white">Uygulama İçi Kredi Modülü</h2>
+            <p class="text-slate-400">Geliştirdiğimiz örnek uygulamanın içindeki kredi başvuru ekranını aşağıda test edebilirsiniz.</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-200 transition group">
-                <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
-                    <i class="fa-solid fa-gauge-high"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-3">Yıldırım Hızında Onay</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Gelişmiş skorlama algoritmamız sayesinde başvurunuz saniyeler içinde değerlendirilir ve sonuçlandırılır.</p>
-            </div>
-            <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-200 transition group">
-                <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
-                    <i class="fa-solid fa-percent"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-3">Size Özel Düşük Faiz</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Bütçenizi yormayan, gizli masrafsız ve bütçe dostu faiz oranlarıyla dilediğiniz gibi harcayın.</p>
-            </div>
-            <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-200 transition group">
-                <div class="w-14 h-14 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-3">%100 Dijital ve Güvenli</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">İmza süreci dâhil tüm adımlar dijital ortamda şifrelenmiş altyapıyla güvenle gerçekleştirilir.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Credit Calculator Section -->
-<section id="calculator" class="py-24 bg-slate-100/70 border-y border-slate-200/60">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
-            <h2 class="text-3xl sm:text-4xl font-black text-slate-900">Kredi Hesaplama Aracı</h2>
-            <p class="text-slate-600">İhtiyacınız olan tutarı ve vadeyi seçin, aylık ödeme planınızı hemen görün.</p>
-        </div>
-        <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-slate-200/80 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            <!-- Sliders -->
-            <div class="lg:col-span-7 space-y-8">
-                <div>
-                    <div class="flex justify-between items-center mb-3">
-                        <span class="text-sm font-semibold uppercase tracking-wider text-slate-500">Kredi Tutarı</span>
-                        <span id="amountDisplay" class="text-2xl font-black text-brand-600">50.000 TL</span>
-                    </div>
-                    <input type="range" id="amountRange" min="5000" max="250000" step="5000" value="50000" 
-                        class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-brand-600" oninput="calculateCredit()">
-                    <div class="flex justify-between text-xs text-slate-400 mt-1">
-                        <span>5.000 TL</span>
-                        <span>250.000 TL</span>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="flex justify-between items-center mb-3">
-                        <span class="text-sm font-semibold uppercase tracking-wider text-slate-500">Vade Süresi</span>
-                        <span id="termDisplay" class="text-2xl font-black text-brand-600">12 Ay</span>
-                    </div>
-                    <input type="range" id="termRange" min="3" max="36" step="3" value="12" 
-                        class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-brand-600" oninput="calculateCredit()">
-                    <div class="flex justify-between text-xs text-slate-400 mt-1">
-                        <span>3 Ay</span>
-                        <span>36 Ay</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Result Box -->
-            <div class="lg:col-span-5 bg-brand-900 text-white rounded-2xl p-8 flex flex-col justify-between shadow-lg relative overflow-hidden">
-                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-brand-700/50 rounded-full blur-2xl"></div>
-                <div class="space-y-6 relative z-10">
+        <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 border border-slate-800 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <form id="loanForm" onsubmit="handleLoanSubmit(event)" class="space-y-6 relative z-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                        <span class="text-xs uppercase tracking-widest text-brand-200 font-medium">Aylık Taksit</span>
-                        <div id="monthlyPayment" class="text-3xl sm:text-4xl font-black tracking-tight mt-1">4.750 TL</div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Adınız Soyadınız</label>
+                        <input type="text" placeholder="Ahmet Yılmaz" required class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white focus:border-brand-500 outline-none transition text-sm">
                     </div>
-                    <div class="border-t border-brand-700/60 pt-4 space-y-2 text-sm">
-                        <div class="flex justify-between text-brand-200">
-                            <span>Faiz Oranı:</span>
-                            <span class="font-bold text-white">1.99%</span>
-                        </div>
-                        <div class="flex justify-between text-brand-200">
-                            <span>Toplam Geri Ödeme:</span>
-                            <span id="totalPayment" class="font-bold text-white">57.000 TL</span>
-                        </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">İstediğiniz Tutar (TL)</label>
+                        <input type="number" id="loanAmount" value="25000" min="1000" max="100000" required class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white focus:border-brand-500 outline-none transition text-sm">
                     </div>
                 </div>
-                <a href="#apply" class="mt-8 relative z-10 w-full py-4 rounded-xl bg-white text-brand-900 font-bold text-center hover:bg-brand-50 transition shadow-md">
-                    Hemen Başvur
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Açıklama / Neden Lazım?</label>
+                    <textarea rows="3" placeholder="Bilgisayar parçası alacağım..." class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white focus:border-brand-500 outline-none transition text-sm"></textarea>
+                </div>
+                <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-600 to-pink-600 hover:from-brand-700 hover:to-pink-700 text-white font-bold shadow-lg transition">
+                    Başvuruyu Simüle Et 🚀
+                </button>
+            </form>
 
-<!-- Call to Action / App Download -->
-<section id="app" class="py-24 bg-white overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-gradient-to-r from-brand-600 to-brand-700 rounded-3xl p-8 sm:p-16 text-white relative shadow-2xl overflow-hidden">
-            <div class="absolute right-0 bottom-0 translate-x-10 translate-y-10 w-96 h-96 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
-            <div class="max-w-xl space-y-6 relative z-10">
-                <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">NovaFinans Cebinizde!</h2>
-                <p class="text-brand-100 text-lg">Uygulamamızı hemen indirin, 7/24 kesintisiz kredi başvurusu ve akıllı cüzdan özelliklerinden anında yararlanın.</p>
-                <div class="flex flex-wrap gap-4 pt-2">
-                    <a href="#" class="flex items-center space-x-3 px-6 py-3.5 bg-slate-900 hover:bg-black text-white rounded-xl font-semibold transition shadow-lg">
-                        <i class="fa-brands fa-apple text-2xl"></i>
-                        <div class="text-left">
-                            <div class="text-[10px] uppercase text-slate-400">İndir</div>
-                            <div class="text-sm font-bold">App Store</div>
-                        </div>
-                    </a>
-                    <a href="#" class="flex items-center space-x-3 px-6 py-3.5 bg-slate-900 hover:bg-black text-white rounded-xl font-semibold transition shadow-lg">
-                        <i class="fa-brands fa-google-play text-2xl"></i>
-                        <div class="text-left">
-                            <div class="text-[10px] uppercase text-slate-400">İndir</div>
-                            <div class="text-sm font-bold">Google Play</div>
-                        </div>
-                    </a>
+            <div id="loanResult" class="hidden mt-8 p-6 bg-slate-950 border border-emerald-500/30 rounded-2xl text-center space-y-3 animate-fade-in">
+                <div class="w-12 h-12 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto text-xl">
+                    <i class="fa-solid fa-check"></i>
                 </div>
+                <h4 class="text-lg font-bold text-white">Simülasyon Başarılı!</h4>
+                <p class="text-slate-400 text-sm">Bu sadece göstermelik bir test sitesi olduğundan kredi çıkmadı ama en azından butonlar düzgün çalışıyor! 😄</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Footer -->
-<footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
-        <div class="space-y-4">
-            <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-lg">
-                    <i class="fa-solid fa-bolt-lightning"></i>
-                </div>
-                <span class="text-xl font-black text-white">Nova<span class="text-brand-500">Finans</span></span>
+<footer id="contact" class="bg-slate-900 border-t border-slate-800 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-slate-500 text-sm">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-sm">
+                <i class="fa-solid fa-gamepad"></i>
             </div>
-            <p class="text-sm leading-relaxed">Yenilikçi nesil dijital finans ve kredi platformu. Tüm hakları saklıdır © 2026.</p>
+            <span class="text-white font-bold">PikselKutusu Stüdyoları</span>
         </div>
         <div>
-            <h4 class="text-white font-bold mb-4">Ürünler</h4>
-            <ul class="space-y-2 text-sm">
-                <li><a href="#" class="hover:text-white transition">İhtiyaç Kredisi</a></li>
-                <li><a href="#" class="hover:text-white transition">Alışveriş Kredisi</a></li>
-                <li><a href="#" class="hover:text-white transition">Dijital Cüzdan</a></li>
-            </ul>
+            <span>Amatör ruhla, sabaha karşı kodlandı © 2026</span>
         </div>
-        <div>
-            <h4 class="text-white font-bold mb-4">Kurumsal</h4>
-            <ul class="space-y-2 text-sm">
-                <li><a href="#" class="hover:text-white transition">Hakkımızda</a></li>
-                <li><a href="#" class="hover:text-white transition">Kariyer</a></li>
-                <li><a href="#" class="hover:text-white transition">İletişim</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4 class="text-white font-bold mb-4">Yasal</h4>
-            <ul class="space-y-2 text-sm">
-                <li><a href="#" class="hover:text-white transition">Gizlilik Politikası</a></li>
-                <li><a href="#" class="hover:text-white transition">Kullanım Koşulları</a></li>
-                <li><a href="#" class="hover:text-white transition">BDDK Bilgi Toplumu</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        NovaFinans A.Ş. 5411 sayılı Bankacılık Kanunu kapsamında faaliyet gösteren finansal teknoloji iş birliği kuruluşudur. Göstermelik bir test web sitesidir.
     </div>
 </footer>
 
-<!-- JavaScript for Interactivity -->
+<!-- Interactive Script -->
 <script>
-    function handleQuickSubmit(e) {
+    function handleLoanSubmit(e) {
         e.preventDefault();
-        document.getElementById('quickSuccess').classList.remove('hidden');
+        const resultBox = document.getElementById('loanResult');
+        resultBox.classList.remove('hidden');
+        resultBox.scrollIntoView({ behavior: 'smooth' });
     }
-
-    function calculateCredit() {
-        const amount = parseInt(document.getElementById('amountRange').value);
-        const term = parseInt(document.getElementById('termRange').value);
-        
-        document.getElementById('amountDisplay').innerText = amount.toLocaleString('tr-TR') + ' TL';
-        document.getElementById('termDisplay').innerText = term + ' Ay';
-
-        // Simple mock formula with monthly interest ~1.99%
-        const monthlyRate = 0.0199;
-        const totalMultiplier = Math.pow(1 + monthlyRate, term);
-        const monthlyPayment = (amount * monthlyRate * totalMultiplier) / (totalMultiplier - 1);
-        const totalPayment = monthlyPayment * term;
-
-        document.getElementById('monthlyPayment').innerText = Math.round(monthlyPayment).toLocaleString('tr-TR') + ' TL';
-        document.getElementById('totalPayment').innerText = Math.round(totalPayment).toLocaleString('tr-TR') + ' TL';
-    }
-
-    // Initialize calculation on load
-    calculateCredit();
 </script>
